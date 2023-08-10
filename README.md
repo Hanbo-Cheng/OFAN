@@ -1,5 +1,5 @@
-# OPtical flow Aware Network
-Offical implement of OPtical flow Aware Network
+# Optical Flow Aware Network
+Offical implement of Optical Flow Aware Network
 
 unzip the `CROHME.zip`
 
@@ -9,7 +9,7 @@ unzip CROHME.zip
 
 
 ## train
-training WAP-OPAN:
+training WAP-OFAN:
 ```
 python train_optical.py
 ```
@@ -27,7 +27,7 @@ python train_wap.py
 
 ## test
 
-testing WAP-OPAN:
+testing WAP-OFAN:
 ```
 bash test_on.sh
 ```
