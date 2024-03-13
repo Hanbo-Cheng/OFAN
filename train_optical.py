@@ -126,7 +126,7 @@ if multi_gpu_flag:
     WAP_model = nn.DataParallel(WAP_model, device_ids=[0, 1])
 WAP_model.cuda()
 
-load_encoder(WAP_model, '../ABM_optical_version/res-L2R/models/ABM_params164_lr0.0625_50.21795989537925.pkl', '../ABM_optical_version/res_optical_only/models/ABM_params190_lr0.015625_47.91878172588832.pkl')
+load_encoder(WAP_model, './pretrain_models/ABM_params164_lr0.0625_50.21795989537925.pkl', './pretrain_models/wap_52.38578680203045.pkl')
 
 
 # print model's parameters

@@ -1,2 +1,7 @@
 CROHME/
 *pkl
+wap*
+*.pdf
+pretrain_models/
+result/
+__pycache__/

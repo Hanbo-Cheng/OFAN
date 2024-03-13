@@ -1,7 +1,22 @@
-# Optical Flow Aware Network
-Offical implement of Optical Flow Aware Network
+# VIEWING WRITING AS VIDEO: OPTICAL FLOW BASED MULTI-MODAL HANDWRITTEN MATHEMATICAL EXPRESSION RECOGNITION [ICASSP 2024]
+Offical implementation of Optical Flow Aware Network
+
+<!-- <p align='center'>
+  <b>
+    <a href="https://github.com/Hanbo-Cheng/OFAN/paper.pdf">Paper</a>
+    | 
+    <a href="https://github.com/Hanbo-Cheng/OFAN/">Code</a> 
+  </b>
+</p>  -->
+  <p align='center'>  
+    <img src='./two-stream-slim.png' height='250'/>
+  </p>
+
+In this work, we perceive the writing process as a video and introduce the Aggregated Optical Flow Map (AOFM) to represent the online modality, which is more compatible with the offline modality. Additionally, we propose the Op-
+tical **Flow Aware Network (OFAN)** in order to automatically extract, align, and fuse the features across online and offline modalities. Through experiment analysis, our method can be seamlessly applied to multiple existing offline HMER models, thereby yielding stable and substantial enhancements across CROHME 2014, 2016, and 2019 datasets
 
 unzip the `CROHME.zip`
+
 
 ```
 unzip CROHME.zip

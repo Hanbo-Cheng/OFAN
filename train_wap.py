@@ -117,17 +117,12 @@ if multi_gpu_flag:
     WAP_model = nn.DataParallel(WAP_model, device_ids=[0, 1])
 WAP_model.cuda()
 
-# print model's parameters
-model_params = WAP_model.named_parameters()
-for k, v in model_params:
-    print(k)
-
 # loss function
 criterion = torch.nn.CrossEntropyLoss(reduce=False)
 # optimizer
 optimizer = optim.Adadelta(WAP_model.parameters(), lr=lrate, eps=my_eps, weight_decay=decay_c)
 
-use_pretrianed_model = True
+use_pretrianed_model = False
 if use_pretrianed_model:
     print('***load_pretrained_model****')
     # start_epoch = int(pretrained_model_path.split('/')[-1].split('_')[1][6:])
