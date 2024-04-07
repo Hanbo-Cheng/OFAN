@@ -1,13 +1,13 @@
 # VIEWING WRITING AS VIDEO: OPTICAL FLOW BASED MULTI-MODAL HANDWRITTEN MATHEMATICAL EXPRESSION RECOGNITION [ICASSP 2024]
 Offical implementation of Optical Flow Aware Network
 
-<!-- <p align='center'>
+<p align='center'>
   <b>
-    <a href="https://github.com/Hanbo-Cheng/OFAN/paper.pdf">Paper</a>
+    <a href="https://ieeexplore.ieee.org/document/10447346">Paper</a>
     | 
     <a href="https://github.com/Hanbo-Cheng/OFAN/">Code</a> 
   </b>
-</p>  -->
+</p> 
   <p align='center'>  
     <img src='./two-stream-slim.png' height='250'/>
   </p>
